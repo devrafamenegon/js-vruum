@@ -34,8 +34,8 @@ app.get('/custo_percurso',(req,res) =>{
 app.post('/consumo', (req,res)=>{
     const {litros, km_perc, op} = req.body
 
-   let tot = op === "calc"  ? Number(km_perc) / Number(litros): "";
-   tot = parseFloat(tot).toFixed(2);
+    let tot = op === "calc"  ? Number(km_perc) / Number(litros): "";
+    tot = parseFloat(tot).toFixed(2);
 
 res.render('pg_media_consumo',{tot})
 
@@ -69,4 +69,4 @@ res.render('pg_media_percurso',{tot, km_perc, comb, auto})
 
 
 //ouvir porta
-app.listen(3000)
+app.listen(8080)
