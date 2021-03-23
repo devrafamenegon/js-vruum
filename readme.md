@@ -6,35 +6,35 @@
 
 This project was developed using the following technologies:
 
-- [Next.js](https://nextjs.org/)
-- [React](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [EJS](https://ejs.co/)
 
 ## 🔥 Preview
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vruum-react.vercel.app/)
+I redid this project using next js, react and typescript, so you can access the deploy with the button below.
+[![Deploy with Vercokay moel](https://vercel.com/button)](https://vruum-react.vercel.app/)
 
 ## 🚀 Getting started
 
 Clone the project and access the folder
 
 ```bash
-$ git clone https://github.com/C0bal/vruum-react && cd vruum-react
+$ git clone https://github.com/C0bal/vruum && cd vruum
 ```
 
-Use the [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) to install dependences, follow the steps below.
+Use the [npm](https://www.npmjs.com/) to install dependences, follow the steps below.
 
 ```bash
 # Install the dependencies
-$ yarn
+$ npm
 
 # Start the project
-$ yarn dev
+$ npm start
 ```
 
 ## 💻 Project
 
-[Vruum](https://github.com/C0bal/vruum-react) is a simple website with some functions, such as calculating the consumption of your car, what is the most economical fuel and also how much money you would spend on a trip.
+[Vruum](https://github.com/C0bal/vruum) is a simple website with some functions, such as calculating the consumption of your car, what is the most economical fuel and also how much money you would spend on a trip.
 
 ## 📝 License
 
